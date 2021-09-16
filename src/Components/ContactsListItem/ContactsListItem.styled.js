@@ -12,7 +12,7 @@ export const Item = styled.span`
   font-weight: 400;
   font-size: 12px;
   line-height: 1.2;
-  color: ${props => `${props.theme.colors.secondaryText}`};
+  color: ${props => `${props.theme.colors.primaryText}`};
 `;
 
 export const DeleteBtn = styled.button`
